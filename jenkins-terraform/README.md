@@ -38,7 +38,8 @@ pipeline {
         stage('Terraform init----') {
          steps {
             sh 'terraform --version'
-            sh ' cd jenkins-terraform/bastion && gcloud projects list'
+            //sh ' cd jenkins-terraform/bastion && gcloud projects list'
+            sh ' cd jenkins-terraform/bastion '
             sh ' cd jenkins-terraform/bastion && terraform init -var-file="dev.tfvars" '
             } //steps
         }  //stage
