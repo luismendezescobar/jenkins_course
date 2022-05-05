@@ -11,11 +11,11 @@ environment = "dev"
 gcp_vpc_name = "default"
 gcp_subnet_1 = "us-central1"
 gcp_region = "us-central1"
-gcp_project_id = "creating-and-150-e882c01b"
+gcp_project_id = "creating-and-150-71311b42"
 client = "ideasextraordinarias"
-gcp_vpc_cidr = "10.128.0.0/20"
-gcp_zone = "us-central1"
-zones = ["us-central1-a","us-central1-b","us-central1-c"]
+#gcp_vpc_cidr = "10.128.0.0/20"
+gcp_zone = "us-central1-b"
+#zones = ["us-central1-a","us-central1-b","us-central1-c"]
 
 
 # vm - BASTION ---------------------------

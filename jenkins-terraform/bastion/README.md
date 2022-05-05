@@ -2,8 +2,8 @@ pipeline {
     agent any
     options {disableConcurrentBuilds()}
     environment {
-        GOOGLE_PROJECT_ID = "creating-and-150-e882c01b" 
-        GOOGLE_PROJECT_NAME = "creating-and-150-e882c01b"
+        GOOGLE_PROJECT_ID = "creating-and-150-71311b42" 
+        GOOGLE_PROJECT_NAME = "creating-and-150-71311b42"
         GOOGLE_APPLICATION_CREDENTIALS = credentials('sc_jenkins_terraform')
         GOOGLE_CLOUD_KEYFILE_JSON = credentials('sc_jenkins_terraform')
     }
